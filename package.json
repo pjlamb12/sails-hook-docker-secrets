@@ -1,5 +1,16 @@
 {
 	"name": "sails-hook-docker-secrets",
+	"author": {
+		"email": "preston.j.lamb@gmail.com",
+		"name": "Preston Lamb",
+		"url": "https://www.prestonlamb.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pjlamb12/sails-hook-docker-secrets"
+	},
+	"maintainers": ["Preston Lamb"],
+	"private": false,
 	"version": "1.0.0",
 	"description": "Sails Hook to load docker secrets as a JSON object and to merge that into the sails.config object",
 	"main": "index.js",
@@ -11,7 +22,6 @@
 	"sails": {
 		"isHook": true
 	},
-	"author": "preston.j.lamb@gmail.com",
 	"license": "MIT",
 	"devDependencies": {
 		"mocha": "^5.0.4",
