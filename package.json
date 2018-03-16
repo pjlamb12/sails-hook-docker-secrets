@@ -11,7 +11,7 @@
 	},
 	"maintainers": ["Preston Lamb"],
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Sails Hook to load docker secrets as a JSON object and to merge that into the sails.config object",
 	"main": "index.js",
 	"scripts": {
