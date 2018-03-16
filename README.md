@@ -25,3 +25,5 @@ If the file's name has a double underscore, that designates that the content to 
 ```
 
 Any of the values that are read in here will overwrite anything else that was previously set on the `sails.config` object.
+
+Don't worry if there are no secrets on your machine; the hook will still run but nothing will be merged into the `sails.config` object.
